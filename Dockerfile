@@ -2,8 +2,8 @@ FROM r-base:4.5.1
 
 # Install dependencies for Bioconductor and bambu
 RUN apt-get update && apt-get install -y \
-    libcurl4-openssl-dev \
-    libssl-dev \
+    libcurl4-gnutls-dev \
+    libicu-dev \
     libxml2-dev \
     && rm -rf /var/lib/apt/lists/*
 
