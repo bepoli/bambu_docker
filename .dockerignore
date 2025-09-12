@@ -1,0 +1,8 @@
+# Ignore the following files and directories when building the Docker image
+.git
+node_modules
+npm-debug.log
+Dockerfile
+README.md
+LICENSE
+.github
